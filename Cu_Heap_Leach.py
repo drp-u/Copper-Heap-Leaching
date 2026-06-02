@@ -5,7 +5,7 @@ def heap_leach():
     ore_mass = int(input('Enter the mass of the ore in tons: '))
     grade = float(input('Enter the grade of the ore: '))
     height = int(input('Choose the height of the heap in meters (3, 6, 9): '))
-    metal_price_lb = float(input('Enter the market price of copper: '))
+    metal_price_lb = float(input('Enter the market price of copper ($/lb): '))
 
     metal_price = metal_price_lb * 2000
     Total_Available_Cu = ore_mass * grade
